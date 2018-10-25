@@ -133,11 +133,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	font-family: 'Courier New', Courier, monospace;
 }
 #about img {
-	float: right;
-	border-bottom-left-radius: 10%;
-	border-bottom-right-radius: 10%;
-	border-top-left-radius: 10%;
-	border-top-right-radius: 10%;
+	
+	width: auto;
+    margin-left:5%;
+    margin-top: -5%;
+    padding: .3%;
+    height: 25vh;
+    height: 22vw;
+    display: inline-block;
+    box-shadow: 3px 20px 50px 1px ;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 50px;
 }
 #about p {
 	margin-bottom: 30px;
@@ -181,37 +187,6 @@ ol.type li a.active {
 ol.type li a:hover {
 	background: #54d0dd;
 	color: #414a52;
-}
-.isotope-item {
-	z-index: 2
-}
-.isotope-hidden.isotope-item {
-	z-index: 1
-}
-.isotope, .isotope .isotope-item {
-	/* change duration value to whatever you like */
-	-webkit-transition-duration: 0.8s;
-	-moz-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-}
-.isotope-item {
-	margin-right: -1px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.isotope {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: height, width;
-	-moz-transition-property: height, width;
-	transition-property: height, width;
-}
-.isotope .isotope-item {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: -webkit-transform, opacity;
-	-moz-transition-property: -moz-transform, opacity;
-	transition-property: transform, opacity;
 }
 .portfolio-item {
 	margin: 15px 0;
@@ -302,41 +277,7 @@ label {
 	font-family: 'Open Sans', sans-serif;
 	float: left;
 }
-#contact .form-control {
-	display: block;
-	width: 100%;
-	padding: 6px 12px;
-	font-size: 14px;
-	line-height: 1.42857143;
-	color: #222;
-	background-color: rgba(255,255,255,0.8);
-	background-image: none;
-	border: 1px solid transparent;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: none;
-	-o-transition: none;
-	transition: none;
-}
-#contact .form-control:focus {
-	border-color: #4b8d98;
-	outline: 0;
-	-webkit-box-shadow: transparent;
-	box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-color: #2c3e50;
-}
-.form-control:-moz-placeholder {
-color: #2c3e50;
-}
-.form-control::-moz-placeholder {
-color: #2c3e50;
-}
-.form-control:-ms-input-placeholder {
-color: #2c3e50;
-}
+
 #contact .social {
 	margin-top: 80px;
 }
