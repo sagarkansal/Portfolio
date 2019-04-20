@@ -1,1 +1,1 @@
-It is a portfolio website . Just something about me.
+It is a portfolio website . Just a little about my world.
