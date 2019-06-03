@@ -7,6 +7,31 @@ body{
 	background:white;
 }
 
+.row-home{
+	padding-right: 10%;
+
+}
+
+.head a{
+	height: 3px;
+	width: 40px;
+	border: 1px solid #111;
+	line-height: 40px;
+	margin: 0 10px;
+	color: #111;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.head a:hover i{
+	color: #fff;
+	border-color: #bb9e7d;
+	background-color: #bb9e7d;
+	}	
+
 .home-description{
 	font-style: italic;
 	font-weight: 600;
@@ -39,7 +64,7 @@ body{
 @media (min-width: 778px)
 {
 		.main{
-			height: 100vh;
+			height: 100%;
 			overflow: hidden;
 		}
 
@@ -65,8 +90,18 @@ body{
 			
 		}
 }
-.img-rabbit{
-	width: 100%;
+.img-front{
+	 width: 80%;
+     margin-left:10%;
+     margin-top: 20%;
+     padding: .3%;
+     height: 25vh;
+     height: 22vw;
+     position: relative;
+     display: inline-block;
+     box-shadow: 3px 20px 50px 1px ;
+     border-bottom-right-radius: 60px;
+     border-top-left-radius: 50px;
 }
 .btn-rabbit{
 	background-color: #fff;
