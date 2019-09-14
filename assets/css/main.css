@@ -1,10 +1,6 @@
 body{
-	background-color:black;
+	background:#EAE5E5;
 	font-family: "Crimson Text";
-}
-
-.main{
-	background:white;
 }
 
 .row-home{
@@ -47,6 +43,7 @@ body{
 	height: 40px;
 	width: 40px;
 	border: 1px solid #111;
+	border-radius: 50%;
 	line-height: 40px;
 	margin: 0 10px;
 	color: #111;
@@ -103,22 +100,42 @@ body{
      border-bottom-right-radius: 60px;
      border-top-left-radius: 50px;
 }
-.btn-rabbit{
-	background-color: #fff;
-	color: #111;
-	font-style: italic;
+
+.lol{
+	padding-bottom: 10%;
+}
+
+.button{
 	border: 1px solid #111;
-	border-radius: 0px !important;
-	transition: all 0.4s ease-in-out;
-	margin-bottom: 20px;
-	font-family: "Crimson";
-	font-size: 13px;
+	line-height: 40px;
+	margin: 0 10px;
+	color: #111;
+	font-size: 20px;
+	padding-bottom: 20px;
+	}
+
+.button:hover{
+	color: #fff;
+	background-color: #bb9e7d;
+	border-color: #bb9e7d;
+}
+
+.btn-rabbit a i{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #111;
+	line-height: 40px;
+	margin: 0 10px;
+	color: #111;
+	font-size: 20px;
+	padding-bottom: 20px;
 	}
 
 .btn-rabbit:hover{
 	color: #fff;
 	background-color: #bb9e7d;
-	border-color: #bb9e7d;}
+	border-color: #bb9e7d;
+}
 
 p{
 	color: #585757;
